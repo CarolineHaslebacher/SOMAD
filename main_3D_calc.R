@@ -1,4 +1,4 @@
-# Caroline Haslebacher, 2025-05-22
+doParallel# Caroline Haslebacher, 2025-05-22
 # this script smoothes observations with a GLM and fits a vMF distribution for clustered data (handles clusters individually)
 
 #%%
@@ -11,6 +11,7 @@
 # setwd('W:/Caroline/lineament_detection/galileo_manual_segmentation/azimuth_analysis/R_code/Europa_Bingham')
 # DELL tower
 setwd('E:/Caroline/lineament_detection/galileo_manual_segmentation/azimuth_analysis/R_code/Europa_Bingham')
+# ran for revision on 2026-09-25 with N=100, gridsize=30
 
 source("Sunazimuth_IsotonicH.R")
 

@@ -370,7 +370,6 @@ filenames <- Sys.glob(paste(orpath, "*.rds", sep='')) # if only used for dff_all
 main(filenames, vis_savepath_base, location=location, x0_list=x0_list, cluster=FALSE, rawdata=TRUE, dimension=1500, color='blue', zoomfactor=zoomfactor, lwd=lwd)
 if(cluster_based){
     # clusters with zoomfactor=2.5:
-    vis_savepath_base <- './results/visualisation/preferred_directions/zoomfactor/'
     vis_savepath_base_clusters <- paste(vis_savepath_base, 'clusters/', sep='')
     main(filenames, vis_savepath_base_clusters, cluster=TRUE, suncorrection = suncorrection, zoomfactor=2.5, rawdata=FALSE, dimension=1500, color='blue')
 }
@@ -404,7 +403,6 @@ filenames <- Sys.glob(paste(orpath, "*.rds", sep='')) # if only used for dff_all
 main(filenames, vis_savepath_base, location=location, x0_list=x0_list, cluster=FALSE, rawdata=TRUE, dimension=1500, color='blue', zoomfactor=zoomfactor, lwd=lwd)
 if(cluster_based){
     # clusters with zoomfactor=2.5:
-    vis_savepath_base <- './results/visualisation/preferred_directions/zoomfactor/'
     vis_savepath_base_clusters <- paste(vis_savepath_base, 'clusters/', sep='')
     main(filenames, vis_savepath_base_clusters, cluster=TRUE, suncorrection = suncorrection, zoomfactor=2.5, rawdata=FALSE, dimension=1500, color='blue')
 }
